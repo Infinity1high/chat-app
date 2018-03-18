@@ -1,7 +1,14 @@
 {
   "name": "",
   "version": "",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "engines": {
+    "node": "6.11.3"
+  },
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "nodemon": "^1.17.2"
   }
 }
